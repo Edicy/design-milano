@@ -1,6 +1,6 @@
 {% if site.search.enabled %}
 <div id="search">
-<form action="">
+<form action="" class="edys-search">
 <div><input type="text" id="onpage_search"/></div>
 </form>
 </div>

@@ -10,16 +10,14 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
-{% if site.search.enabled %}
-	{% stylesheet_link "assets/site_search/2.0/site_search.css" static_host="true" %}
-        {% endif %}
+{% if site.search.enabled %}{% stylesheet_link "assets/site_search/3.0/style.css?1" static_host="true" %}{% endif %}
 <!--[if IE]><link rel="stylesheet" type="text/css" href="http://static.edicy.com/assets/ie.css" /><![endif]-->
 <!--[if lt IE 7>
 <style type="text/css">
   div#container {
   background-image: none;
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='{{images_path}}/container.png?1');
-	} 
+	}
 </style>
 <![endif]-->
 <meta name="viewport" content="initial-scale=1" />
