@@ -112,6 +112,14 @@ width: 126px;
 color: #e5e5e5;
 padding: 3px;
 }
+.voog-search-mobile-mode {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: auto;
+  width: auto;
+  margin-bottom: 90px;
+}
 * html .fci-active {
   color: black;
 }
