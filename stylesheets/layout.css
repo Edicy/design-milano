@@ -401,6 +401,11 @@
     .form_field_size_small {
         width: 25%;
     }
+
+    .form_submit input:disabled {
+      color: #fff;
+      color: rgba(255,255,255,.5);
+    }
  
     .mobile { display: none;}   
 @media screen and (max-width: 480px) {
