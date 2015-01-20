@@ -154,3 +154,30 @@ body .add-article {
   margin-bottom: 15px;
   display: inline-block !important;
 }
+
+/* Voog cms style overrides */
+#content .edy-empty-bordered {
+  color: rgba(255,255,255,.33);
+  border-color: rgba(255,255,255,.33);
+}
+#content .edy-texteditor-view.placeholder {
+  color: rgba(255,255,255,.5);
+}
+#content .edy-content-element-hover {
+  border-color: rgba(255,255,255,.1);
+}
+#content .edy-texteditor-active {
+  outline-color: rgba(255,255,255,.2);
+}
+#content .edy-fe-field-active,
+#content .edy-fe-active .edy-fe-field:hover {
+  outline-color: rgba(255,255,255,.1);
+}
+
+/* Voog cms blog editor overrides */
+#wrap .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  color: rgba(255,255,255,1) !important;
+  line-height: 0 !important;
+}
