@@ -32,7 +32,7 @@
          <div class="blog-inner">
            <h1>{% editable article.title plain="true" %} <span class="mobile mobile-date">{{article.created_at | format_date="short" }}</span></h1>
    
-           <div class="blog-content clearfix">
+           <div class="blog-content clearfix content-hyphenate">
              {% editable article.excerpt %}
              <div id="articlebody">
                {% editable article.body %}
@@ -49,7 +49,7 @@
          {% unless article.new_record? %}<h1>{{"comments"|lc}}</h1>{% endunless %}
          {% for comment in article.comments %}
          
-         <div class="comment edy-site-blog-comment">
+         <div class="comment edy-site-blog-comment content-hyphenate">
            <div class="comment-count">{{ forloop.index }}</div>
            <div class="comment-inner">
              {{ comment.body }}
