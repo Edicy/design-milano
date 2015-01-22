@@ -163,21 +163,27 @@ body .add-article {
 }
 
 /* Voog cms style overrides */
-#content .edy-empty-bordered {
+#content .edy-empty-bordered,
+#header-table .edy-empty-bordered {
   color: rgba(255,255,255,.33);
   border-color: rgba(255,255,255,.33);
 }
-#content .edy-texteditor-view.placeholder {
+#content .edy-texteditor-view.placeholder,
+#header-table .edy-texteditor-view.placeholder {
   color: rgba(255,255,255,.5);
 }
-#content .edy-content-element-hover {
+#content .edy-content-element-hover,
+#header-table .edy-content-element-hover {
   border-color: rgba(255,255,255,.1);
 }
-#content .edy-texteditor-active {
+#content .edy-texteditor-active,
+#header-table .edy-texteditor-active {
   outline-color: rgba(255,255,255,.2);
 }
 #content .edy-fe-field-active,
-#content .edy-fe-active .edy-fe-field:hover {
+#content .edy-fe-active .edy-fe-field:hover,
+#header-table .edy-fe-field-active,
+#header-table .edy-fe-active .edy-fe-field:hover {
   outline-color: rgba(255,255,255,.1);
 }
 
