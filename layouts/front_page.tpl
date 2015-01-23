@@ -8,7 +8,7 @@
 
 <body>
 	
-	<div id="wrap">
+	<div id="wrap" class="content-hyphenate">
    
           {% include "Langmenu" %}
           {% include "Mainmenu" %}
@@ -21,7 +21,7 @@
      </table> 
    </div><!-- //header -->
    
-   <div id="container">
+   <div id="container" class="clearfix">
      
      <div id="content">
        <div id="content-inner" class="clearfix content-hyphenate">
@@ -30,7 +30,7 @@
        
      </div> <!-- //content -->
      
-     <div id="sidebar">
+     <div id="sidebar" class="">
        {% include "News" %}
         
         
