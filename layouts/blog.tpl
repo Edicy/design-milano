@@ -4,7 +4,7 @@
 <head>
 {% include "SiteHeader" %}
 {{ blog.rss_link }}
-  <title>{{site.name}} &raquo; {{page.title}}</title>
+  <title>{% unless page.site_title == "" %}{{ page.site_title }} &raquo; {% endunless %} {{page.title}}</title>
 </head>
 
 <body>
