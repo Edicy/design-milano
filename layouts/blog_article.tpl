@@ -30,7 +30,7 @@
        <div class="blog">
          <div class="blog-date"><span>{{ article.created_at | format_date:"%d" }}</span><br />{{ article.created_at | format_date:"%b" }}</div>
          <div class="blog-inner">
-           <h1>{% editable article.title plain="true" %} <span class="mobile mobile-date">{{article.created_at | format_date="short" }}</span></h1>
+           <h1>{% editable article.title plain="true" %} <span class="mobile mobile-date">{{article.created_at | format_date: "short" }}</span></h1>
 
            <div class="blog-content clearfix content-hyphenate">
              {% editable article.excerpt %}

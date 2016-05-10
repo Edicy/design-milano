@@ -32,7 +32,7 @@
        <div class="blog">
          <div class="blog-date"><span>{{ article.created_at | format_date:"%d" }}</span><br />{{ article.created_at | format_date:"%b" }}</div>
          <div class="blog-inner">
-           <h1><a href="{{ article.url }}">{{ article.title }} <span class="mobile mobile-date">{{article.created_at | format_date="short" }}</span></a></h1>
+           <h1><a href="{{ article.url }}">{{ article.title }} <span class="mobile mobile-date">{{article.created_at | format_date: "short" }}</span></a></h1>
 
            <div class="blog-content clearfix content-hyphenate">
              {{ article.excerpt }} <a href="{{ article.url }}">{{"read_more"|lc}}</a>
